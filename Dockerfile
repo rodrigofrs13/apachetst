@@ -9,7 +9,7 @@ MAINTAINER The CentOS Project <cloud-ops@centos.org>
 
 RUN yum -y update; yum clean all
 RUN yum -y install httpd; yum clean all
-RUN echo "Zidane Apache HTTPD" >> /var/www/html/index.html
+RUN echo "Zidane Docker Apache HTTPD" >> /var/www/html/index.html
 
 EXPOSE 80
 
