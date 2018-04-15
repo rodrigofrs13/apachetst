@@ -3,6 +3,7 @@
 #
 # Originally written for Fedora-Dockerfiles by
 #   "Scott Collier" <scollier@redhat.com>
+# CP Rodrigo Fernandes for test docker simmple
 
 FROM centos:centos6
 MAINTAINER The CentOS Project <cloud-ops@centos.org>
